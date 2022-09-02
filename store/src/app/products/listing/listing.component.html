@@ -1,1 +1,16 @@
-<p>listing works!</p>
+<div class="listing-container">
+<mat-card class="card" *ngFor="let item of productList">
+    <mat-card-header>
+      <div mat-card-avatar class="header-image"></div>
+      <mat-card-title>{{item.name}}</mat-card-title>
+      <mat-card-subtitle>{{item.type}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="item.imageURL" alt="Photo of product">
+    <mat-card-content>            
+      <span>{{item.price}}{{item.currency}}</span>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button color="primary">Add to Cart</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

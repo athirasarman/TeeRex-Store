@@ -57,7 +57,9 @@ import {OverlayModule} from '@angular/cdk/overlay';
     MatSidenavModule,
     MatListModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatInputModule,
+    MatCardModule
   ]
 })
 export class SharedModule { }

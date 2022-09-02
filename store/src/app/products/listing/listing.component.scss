@@ -1,0 +1,20 @@
+.listing-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 10px 0 10px;
+}
+
+.card {
+    max-width: 350px;
+    margin:10px;
+}
+
+.header-image {
+    background-size: cover;
+}
+
+.mat-card-image {
+    height: 382px;
+}
